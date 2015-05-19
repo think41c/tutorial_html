@@ -1,13 +1,32 @@
 
-<!-- // File systems are Unix based. Thus,
-// Files/folders are case sensitive, no spaces allowed
-// Directories are navigated with forward slashes
-// .. goes back a folder.
-//  / is the current folder. 
-// Thus, ../ is one folder closer to the root.
-// Thus, ../../../ goes back 3 folders.
-// Thus, ../x/ goes back 1 folder, then into x
-// -->
+<!-- 
+File systems are Unix based. Thus,
+Files/folders are case sensitive, no spaces allowed
+Directories are navigated with forward slashes
+.. goes back a folder.
+/ is the current folder. 
+Thus, ../ is one folder closer to the root.
+Thus, ../../../ goes back 3 folders.
+Thus, ../x/ goes back 1 folder, then into x
+
+HTML rendered with 'tags' that are open and close with
+a preceding / (eg. <p>Hello</p>). Some are self enclosed,
+meaning they don't need a closing tag (eg. <title> ). You 
+can also add the / at the end of self enclosed tags. 
+(eg. <title/> )
+-->
+
+<!doctype html>
+<html lang="en"> <!--Entire file except !doctype tag goes inside <html>-->
 <head>
-  <p>Hello</p>
+  <title>Text in Brower Tab / Title Bar</title> <!--Chrome shows in tab only-->
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="myCSS.css">
+  <script src="javastuff.js">
 </head>
+
+<body>
+</body>
+
+
+
